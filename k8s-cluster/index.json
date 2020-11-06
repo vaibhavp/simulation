@@ -1,0 +1,21 @@
+{
+  "title": "Broken K8S cluster",
+  "description": "Fix our cluster",
+  "difficulty": "Beginner",
+  "time": "60 minutes",
+  "details": {
+    "steps": [],
+    "intro": {
+      "text": "intro.md"
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "uilayout": "terminal"
+  },
+  "backend": {
+    "imageid": "kubernetes-cluster-running"
+  }
+}
