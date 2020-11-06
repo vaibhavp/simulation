@@ -5,6 +5,7 @@
   "time": "60 minutes",
   "details": {
     "intro": {
+      "code": "break-cluster.sh",
       "text": "intro.md"
     },
     "finish": {
