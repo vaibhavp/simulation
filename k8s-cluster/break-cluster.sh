@@ -1,7 +1,8 @@
 #!/bin/bash
 
 kubectl get nodes 
-ssh node01
+echo "yes" | ssh node01
 service kubelet stop
-echo "exit"
+sleep 10
+exit
 kubectl get nodes 
