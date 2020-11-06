@@ -12,7 +12,9 @@
     }
   },
   "environment": {
-    "uilayout": "terminal"
+    "uilayout": "terminal",
+    "hideintro": true,
+    "hidefinish": true
   },
   "backend": {
     "imageid": "kubernetes-cluster-running"
