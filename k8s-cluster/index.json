@@ -6,7 +6,6 @@
   "details": {
     "intro": {
       "code": "foreground.sh",
-      "courseData": "break-cluster.sh",
       "text": "intro.md"
     },
     "finish": {
