@@ -1,7 +1,7 @@
 #!/bin/bash
 
 kubectl get nodes 
-echo "yes" | ssh node01
+ssh -oStrictHostKeyChecking=no node01
 service kubelet stop
 sleep 10
 exit
