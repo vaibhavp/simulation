@@ -1,0 +1,1 @@
+echo "Waiting to complete"; while [ ! -f /tmp/done ] ; do sleep 2; done; echo "Done"
