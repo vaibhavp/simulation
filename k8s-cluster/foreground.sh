@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "Waiting to complete"; 
+sleep 1; wait.sh
