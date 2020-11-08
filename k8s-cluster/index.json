@@ -4,14 +4,16 @@
   "difficulty": "Beginner",
   "time": "60 minutes",
   "details": {
+    "steps":[ {
+        "title": "Fix Cluster",
+        "text": "step1.md",
+        "verify": "verify.sh"
+      }]
+    },
     "intro": {
       "code": "foreground.sh",
       "courseData": "background.sh",
-      "text": "intro.md",
-      "verify": "verify.sh"
-    },
-    "finish": {
-      "text": "finish.md"
+      "text": "intro.md"
     },
     "assets": {
       "host01": [

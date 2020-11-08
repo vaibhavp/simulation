@@ -19,6 +19,7 @@ show_progress()
       break
     fi
   done
+  echo "\n"
 }
 
 show_progress
