@@ -1,1 +1,10 @@
-echo "Waiting to complete"; while [ ! -f /tmp/done ] ; do sleep 2; done; echo "Done"
+#!/bin/bash
+set -x
+echo "Waiting to complete"; 
+do
+    var=`kubectl get nodes node01 -o jsonpath='{.status.conditions[?(@.type=="Ready")].status}'`
+    if [[ $var != "True" ]];then
+        touch /tmp/done 
+        break
+    fi
+done
