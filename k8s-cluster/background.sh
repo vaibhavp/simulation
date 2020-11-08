@@ -1,6 +1,6 @@
 #!/bin/bash
 ssh -o StrictHostKeyChecking=no node01
-./break-cluster.sh
+/root/break-cluster.sh
 logout
 while True
 do
