@@ -23,7 +23,7 @@
   "environment": {
     "uilayout": "terminal",
     "hideintro": true,
-    "hidefinish": true
+    "hidefinish": false
   },
   "backend": {
     "imageid": "kubernetes-cluster-running"
