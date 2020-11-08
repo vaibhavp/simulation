@@ -7,7 +7,8 @@
     "intro": {
       "code": "foreground.sh",
       "courseData": "background.sh",
-      "text": "intro.md"
+      "text": "intro.md",
+      "verify": "verify.sh"
     },
     "finish": {
       "text": "finish.md"

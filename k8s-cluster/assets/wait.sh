@@ -2,7 +2,7 @@
 
 show_progress()
 {
-  echo -n "Starting"
+  echo -n "Wait We are breaking something for you....."
   local -r pid="${1}"
   local -r delay='0.75'
   local spinstr='\|/-'
@@ -19,7 +19,6 @@ show_progress()
       break
     fi
   done
-  echo "Configured"
 }
 
 show_progress
