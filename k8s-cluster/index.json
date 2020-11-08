@@ -8,8 +8,7 @@
         "title": "Fix Cluster",
         "text": "step1.md",
         "verify": "verify.sh"
-      }]
-    },
+      }],
     "intro": {
       "code": "foreground.sh",
       "courseData": "background.sh",
